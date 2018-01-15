@@ -5,7 +5,7 @@ exports.handler = function (event, context, callback) {
 
 	ddb.put({
 		TableName: 'api_nuwanthi21',
-		Item: { id: '1', first_name: 'nuwanthi', last_name: 'yapa' }
+		Item: { id: 1, first_name: 'nuwanthi', last_name: 'yapa' }
 	}, function (err, data) {
 		if (err) {
 			console.log("Error ", err);
